@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #eee;
+}
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0 white solid;
+  border-radius: 24px;
+  padding: 45px;
+  background-color: rgb(78, 78, 78);
+  box-shadow: #0005 0 0 25px 5px;
+}
+.profile > div {
+  color: #222;
+}
+.profile {
+  background: rgb(255, 255, 255);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 90%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.profilePhoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+}
+.profileButton {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
